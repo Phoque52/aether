@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aether - Hakkımızda</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+        
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: white;
+            font-family: 'EB Garamond', serif;
+            text-align: center;
+        }
+        header {
+            background-color: #1E1E1E;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 14px;
+            transition: color 0.3s ease-in-out;
+        }
+        header a:hover {
+            color: darkred;
+        }
+        .logo {
+            cursor: pointer;
+        }
+        .nav-links {
+            display: flex;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 50px;
+        }
+        h1 {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .content {
+            max-width: 800px;
+            font-size: 20px;
+            line-height: 1.6;
+            color: #ccc;
+            text-align: justify;
+        }
+        .credits {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #1E1E1E;
+            width: 100%;
+        }
+        .credits h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+        .credits p {
+            font-size: 18px;
+            color: #bbb;
+        }
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+            .nav-links {
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo" onclick="location.href='anasayfa.html'">Aether</div>
+        <nav class="nav-links">
+            <a href="hakkimizda.html">Hakkımızda</a>
+            <a href="guncellemeler.html">Güncellemeler</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Hakkımızda</h1>
+        <div class="content">
+            <p>Aether, 8. Sınıf İnkılap Tarihi ve Atatürkçülük dersine katkıda bulunmak amacıyla geliştirilen bir dil modelidir. Derslerde kullanılması amacıyla</p>
+            <p>Projenin yapımına 3 Mart 2025 tarihinde başlanmış olup yine aynı tarihte FaceBook Messenger üzerinden hizmet vermeye başlamış sonrasında 7 Mart 2025 yeni Web Sitesine taşınarak herkese açık hale gelmiştir.</p>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Emeği Geçenler</h1>
+        <div class="content">
+           <ul>
+                <li>
+                    Yazılım - Ayaz Ata Türkmen
+                </li>
+                <li>
+                    Makine Öğrenimi - Cem Özaydın ve Ayaz Ata Türkmen
+                </li>
+                <li>
+                    Soru Analizi - Efe Uzman
+                </li>
+                <li>
+                    Ayrıca Teşekkürler - Aras Erdemir ve SEV İnkılap Bölümü
+                </li>
+           </ul>
+        </div>
+    </div>
+</body>
+</html>
