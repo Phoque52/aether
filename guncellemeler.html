@@ -4,6 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aether - Güncellemeler</title>
+
+    <style>
+    df-messenger {
+        --df-messenger-bot-message: #121212;
+        --df-messenger-button-titlebar-color: #1E1E1E;
+        --df-messenger-chat-background-color: #121212;
+        --df-messenger-font-color: #dddd;
+        --df-messenger-send-icon: #1E1E1E;
+        --df-messenger-user-message: #1E1E1E;
+        --df-messenger-button-titlebar-color: #1E1E1E;
+        }
+    </style>
+    
     <style>
         @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
         
@@ -98,6 +111,15 @@
         }
     </style>
 </head>
+
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="Aether"
+  agent-id="e974a21b-0122-4a66-9cd7-354890cf12fa"
+  language-code="tr"
+></df-messenger>
+    
 <body>
     <header>
         <div class="logo" onclick="location.href='anasayfa.html'">Aether</div>
@@ -113,7 +135,8 @@
             <ul class="update-list">
                 <li><strong>(Early) - 3 Mart 2025:</strong> Aether projesine başlandı. İlk başta adı İnkılapBot'du. Gizlilik Politikası Yayınlandı. Proje kampüste FaceBook'a entegre bir şekilde ilk kez test edildi.</li>
                 <li><strong>(1.0) - 8 Mart 2025:</strong> Aether 1.0 güncellemesiyle, web sitesi tasarımı tamamlanarak Credits, Hakkımızda ve güncelleme logu gibi yeni bölümler eklendi. Proje GitHub’a yüklendi ve bot, sitenin sağ alt köşesinden erişilebilir oldu. Ayrıca siyah tema seçeneği eklenerek bot, Demokratikleşme Çabaları başta olmak üzere önemli olayları ve isimleri entegre etti. Messenger sayfası kapatıldı ve site artık LocalHost üzerinden erişilebilir hale geldi.</li>
-                <li><strong>(1.1) - 9 Mart 2025:</strong> 1.1 güncellemesi yayınlandı. Header'a ve Messenger kısımlarında ufak stil değişimleri yapıldı. Site GitHub üzerinden herkese açık hale getirildi.</li>
+                <li><strong>(1.1) - 9 Mart 2025:</strong> Header'da ve Messenger kısımlarında ufak stil değişimleri yapıldı. Site GitHub üzerinden herkese açık hale getirildi.</li>
+                <li><strong>(1.2) - 10 Mart 2025:</strong> Güncellemeler ve Hakkımızda bölümlerinin arayüzü yenilendi. Belirli intentlerde meydana gelen rastgele kısa çizgi hatası düzeltildi. Ayrıca, bot ile konuşma butonu, ana sayfadan ayrılsa bile sorunsuz bir şekilde çalışır hale getirildi.</li>
             </ul>
         </div>
     </div>
