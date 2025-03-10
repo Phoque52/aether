@@ -4,6 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aether - Hakkımızda</title>
+
+        <style>
+    df-messenger {
+        --df-messenger-bot-message: #121212;
+        --df-messenger-button-titlebar-color: #1E1E1E;
+        --df-messenger-chat-background-color: #121212;
+        --df-messenger-font-color: #dddd;
+        --df-messenger-send-icon: #1E1E1E;
+        --df-messenger-user-message: #1E1E1E;
+        --df-messenger-button-titlebar-color: #1E1E1E;
+        }
+    </style>
+    
     <style>
         @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
         
@@ -91,6 +104,15 @@
         }
     </style>
 </head>
+
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="Aether"
+  agent-id="e974a21b-0122-4a66-9cd7-354890cf12fa"
+  language-code="tr"
+></df-messenger>
+    
 <body>
     <header>
         <div class="logo" onclick="location.href='anasayfa.html'">Aether</div>
