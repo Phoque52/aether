@@ -5,18 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aether - Hakkımızda</title>
 
-        <style>
-    df-messenger {
-        --df-messenger-bot-message: #121212;
-        --df-messenger-button-titlebar-color: #1E1E1E;
-        --df-messenger-chat-background-color: #121212;
-        --df-messenger-font-color: #dddd;
-        --df-messenger-send-icon: #1E1E1E;
-        --df-messenger-user-message: #1E1E1E;
-        --df-messenger-button-titlebar-color: #1E1E1E;
-        }
-    </style>
     
+    <style>
+        df-messenger {
+            --df-messenger-bot-message: #121212;
+            --df-messenger-button-titlebar-color: #1E1E1E;
+            --df-messenger-chat-background-color: #121212;
+            --df-messenger-font-color: #dddd;
+            --df-messenger-send-icon: #1E1E1E;
+            --df-messenger-user-message: #1E1E1E;
+            --df-messenger-button-titlebar-color: #1E1E1E;
+            }
+        </style>
+
     <style>
         @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
         
@@ -54,45 +55,42 @@
             display: flex;
         }
         .container {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 50px;
+            max-width: 800px;
+            background-color: #1E1E1E;
+            padding: 30px;
+            margin: 40px auto;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
         }
         h1 {
-            font-size: 48px;
+            font-size: 36px;
             font-weight: bold;
             margin-bottom: 20px;
         }
 
         hr {
             width: 50%;
-            border: 1px solid #1e1e1e;
-            margin: 20px auto;
+            border: 1px solid #444;
+            margin: 40px auto;
         }
 
         .content {
-            max-width: 800px;
-            font-size: 20px;
+            font-size: 18px;
             line-height: 1.6;
             color: #ccc;
             text-align: justify;
         }
-        .credits {
-            margin-top: 50px;
-            padding: 20px;
-            background-color: #1E1E1E;
-            width: 100%;
+
+        .credits ul {
+            list-style: none;
+            padding: 0;
         }
-        .credits h2 {
-            font-size: 28px;
-            margin-bottom: 15px;
-        }
-        .credits p {
+
+        .credits ul li {
             font-size: 18px;
-            color: #bbb;
+            margin-bottom: 10px;
         }
+
         @media (max-width: 768px) {
             header {
                 flex-direction: column;
@@ -100,6 +98,10 @@
             }
             .nav-links {
                 margin-top: 10px;
+            }
+            .container {
+                width: 90%;
+                padding: 20px;
             }
         }
     </style>
@@ -112,7 +114,7 @@
   agent-id="e974a21b-0122-4a66-9cd7-354890cf12fa"
   language-code="tr"
 ></df-messenger>
-    
+
 <body>
     <header>
         <div class="logo" onclick="location.href='anasayfa.html'">Aether 1.5</div>
@@ -122,6 +124,7 @@
             <a href="https://github.com/Phoque52/aether">GitHub</a>
         </nav>
     </header>
+
     <div class="container">
         <h1>Hakkımızda</h1>
         <div class="content">
@@ -129,17 +132,19 @@
             <p>Projenin yapımına 3 Mart 2025 tarihinde başlanmış olup yine aynı tarihte Facebook Messenger üzerinden hizmet vermeye başlamış sonrasında 9 Mart 2025 GitHub üzerinden yeni web sitesine taşınmıştır. Güncelleme desteği sürmektedir.</p>
         </div>
     </div>
-    <hr>
-    <div class="container">
+
+
+    <div class="container credits">
         <h1>Emeği Geçenler</h1>
         <div class="content">
             <ul>
                 <li><strong>Yazılım Geliştiricisi:</strong> Ayaz Ata Türkmen</li>
                 <li><strong>Makine Eğitmeni:</strong> Cem Özaydın ve Ayaz Ata Türkmen</li>
                 <li><strong>Soru Analizi:</strong> Efe Uzman</li>
-                <li><strong>Ayrıca Teşekkürler:</strong> Aras Erdemir,  Jesse DeVoe ve Ebru Akın</li>
+                <li><strong>Ayrıca Teşekkürler:</strong> Aras Erdemir, Jesse DeVoe ve Ebru Akın</li>
             </ul>            
         </div>
     </div>
+
 </body>
 </html>
