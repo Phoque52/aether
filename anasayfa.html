@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="tr">
 
@@ -68,18 +69,29 @@
             height: 80vh;
             padding: 20px;
         }
-
-        h1 {
-            font-size: 64px;
-            font-weight: bold;
-            margin-bottom: 10px;
-            display: inline-block;
+        
+        .container p {
+        	animation: fadeIn2 2s forwards, glow 3s infinite alternate;
         }
+        
+        @keyframes fadeIn2 {
+    	0% { opacity: 0; }
+    	100% { opacity: 1; }
+}
 
-        h1 span {
-            display: inline-block;
-            animation: glow 3s infinite alternate;
-        }
+h1 {
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    opacity: 0;
+    animation: fadeIn 2s forwards, glow 3s infinite alternate;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
 
 
         @keyframes glow {
