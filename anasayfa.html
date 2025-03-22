@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aether</title>
-
     <style>
         df-messenger {
             --df-messenger-bot-message: #121212;
@@ -162,12 +161,7 @@
 </head>
 
 <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-<df-messenger
-    intent="WELCOME"
-    chat-title="Aether"
-    agent-id="e974a21b-0122-4a66-9cd7-354890cf12fa"
-    language-code="tr">
-</df-messenger>
+<df-messenger intent="WELCOME" chat-title="Aether" agent-id="e974a21b-0122-4a66-9cd7-354890cf12fa" language-code="tr"></df-messenger>
 
 <body>
     <header>
@@ -185,7 +179,6 @@
         </h1>
         <p>Soru sormak için sağ alt köşedeki butona tıklayın.</p>
 
-   
         <div class="info-box" id="infoBox">
             Burada rastgele bilgiler yer alacak.
         </div>
@@ -194,7 +187,6 @@
     <script>
         const infoBox = document.getElementById('infoBox');
 
-       
         const infoMessages = [
             "Aether'ın içerisinde 6'dan fazla easter egg bulunmaktadır.",
             "Atatürk, Türkiye Cumhuriyeti'nin kurucusu olarak 29 Ekim 1923'te Cumhuriyet'i ilan etti.",
@@ -205,19 +197,20 @@
             "Aether'ın ilk adı İnkılapBot'du.",
             "Aether ilk sürümlerinde Facebook üzerinden çalışıyordu.",
             "Kurtuluş Savaşı'nın zaferle sonuçlanmasının ardından, 1923’te Lozan Antlaşması imzalanarak Türkiye’nin bağımsızlığı uluslararası alanda kabul edildi.",
-            "Aether'ın ismi Dante Aligheri'nin "İlahi Komedya"sındaki gök katlarından esinlenilerek verilmiştir.",
+            "Aether'ın ismi Dante Aligheri'nin 'İlahi Komedya'sındaki gök katlarından esinlenilerek verilmiştir."
         ];
 
-      
         function getRandomInfo() {
             const randomIndex = Math.floor(Math.random() * infoMessages.length);
             return infoMessages[randomIndex];
         }
 
-        
-        infoBox.innerHTML = getRandomInfo();
+        // Sayfa yüklendikten sonra rastgele bilgi göster
+        window.onload = () => {
+            infoBox.innerHTML = getRandomInfo();
+        }
 
-        
+        // 10 saniyede bir rastgele bilgi değiştir
         setInterval(() => {
             infoBox.innerHTML = getRandomInfo();
         }, 10000);
@@ -226,3 +219,4 @@
 </body>
 
 </html>
+
