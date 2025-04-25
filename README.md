@@ -1,18 +1,32 @@
-# Aether
-
-Aether, Sosyal Bilgiler ve İnkılap Tarihi dersleri için geliştirilmiş, **Dialogflow** tabanlı bir web sitesidir. Kullanıcı dostu, **minimal ve şık bir tasarıma** sahip olan Aether, herkesin kolayca erişebileceği **public bir platformdur**.
-
-## 🚀 Özellikler
-
-- **Dialogflow Entegrasyonu**: Doğal dil işleme yetenekleriyle etkileşimli yanıtlar.
-- **Minimal ve Şık Arayüz**: Gereksiz detaylardan arındırılmış, sade ve akıcı bir kullanıcı deneyimi.
-- **Hızlı ve Erişilebilir**: Herhangi bir ek kurulum gerektirmeden doğrudan web tarayıcınızdan kullanabilirsiniz.
-
-## 🌐 Erişim
-Aether'e aşağıdaki bağlantıdan ulaşabilirsiniz:
-[🔗 Aether Web Sitesi](https://phoque52.github.io/aether/anasayfa.html)
+# Aether  
+**8. Sınıf İnkılap Tarihi ve Atatürkçülük Dersi İçin Konuşma Tabanlı Yapay Zeka Modeli**
 
 ---
-**Geliştirici Notu:** Her türlü geri bildiriminiz ve katkınız değerlidir. Yeni özellik önerileri veya hata bildirimleri için lütfen bir **issue** açın ya da **pull request** gönderin! 😊
 
--Phoque
+## Hakkında
+
+**Aether**, 8. sınıf *İnkılap Tarihi ve Atatürkçülük* dersine katkı sağlamak amacıyla geliştirilmiş, konuşma tabanlı bir yapay zeka modelidir. Sistem, önceden tanımlanmış soru-cevap çiftleri üzerinden çalışır ve yalnızca tanımlanmış bilgilere dayalı yanıtlar üretir.
+
+---
+
+## Teknik Bilgiler
+
+- **Arayüz:** HTML, CSS  
+- **Altyapı:** JavaScript, Dialogflow  
+- **Barındırma:** GitHub Pages
+
+---
+
+## Çevresel Yaklaşım
+
+Aether, enerji verimliliği gözetilerek geliştirilmiştir. Barındırma ve işlem süreçlerinde çevreye duyarlı altyapılar tercih edilmiştir.
+
+---
+
+## Proje Linki
+
+[GitHub Pages Üzerinden Görüntüle](https://phoque52.github.io/aether/anasayfa.html)
+
+---
+
+> Aether, teknolojiyi işlevselliğin ötesinde, bilinçli ve sorumlu bir şekilde kullanmayı hedefler.
