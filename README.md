@@ -1,32 +1,24 @@
-# Aether  
-**8. Sınıf İnkılap Tarihi ve Atatürkçülük Dersi İçin Konuşma Tabanlı Yapay Zeka Modeli**
+# Aether
 
----
+**Aether**, 8. Sınıf İnkılap Tarihi ve Atatürkçülük dersine katkı sağlamak amacıyla geliştirilmiş konuşma tabanlı yapay zeka modelidir.
 
-## Hakkında
+## Proje Tanımı
 
-**Aether**, 8. sınıf *İnkılap Tarihi ve Atatürkçülük* dersine katkı sağlamak amacıyla geliştirilmiş, konuşma tabanlı bir yapay zeka modelidir. Sistem, önceden tanımlanmış soru-cevap çiftleri üzerinden çalışır ve yalnızca tanımlanmış bilgilere dayalı yanıtlar üretir.
+Aether, ön yüzü HTML ve CSS, arka yüzü ise Dialogflow ve JavaScript kullanılarak geliştirilmiş bir projedir. Web sitesi GitHub Pages üzerinden yayınlanmaktadır. Geleneksel bir yapay zekadan ziyade, Aether kapsamlı bir soru-cevap sistemi olarak tasarlanmıştır.
 
----
+Kullanıcılar sisteme bir soru yönelttiğinde, Aether bu soruya yalnızca geliştiricileri tarafından daha önce tanımlanmışsa yanıt verir. Sistem bu mantık üzerine kuruludur. Aether’ın bilgi kapasitesi her güncellemede geliştirici ekibi tarafından genişletilmekte ve güncellenmektedir. Eğer sistem yönelttiğiniz bir soruya cevap veremiyorsa, bu durum söz konusu bilginin henüz cevap veri havuzuna eklenmemiş olabileceğini gösterir.
 
-## Teknik Bilgiler
+## Sürdürülebilirlik Yaklaşımı
 
-- **Arayüz:** HTML, CSS  
-- **Altyapı:** JavaScript, Dialogflow  
-- **Barındırma:** GitHub Pages
+Aether'ı geliştiren ekip, yapay zeka sistemlerinin yüksek enerji tüketimiyle çevre üzerinde yarattığı etkiyi önemsiyor. Bu nedenle sistemin barındırılması ve çalıştırılmasında mümkün olduğunca optimize altyapılar tercih edildi:
 
----
+- Web sitesi GitHub Pages üzerinde barındırılıyor.  
+- Soru-cevap verileri Dialogflow üzerinden işleniyor.  
 
-## Çevresel Yaklaşım
+Amacımız sadece işlevsel bir sistem kurmak değil, bunu doğaya zarar vermeden yapmak. Aether, teknolojiyi sorumlu bir şekilde kullanmaya inanır.
 
-Aether, enerji verimliliği gözetilerek geliştirilmiştir. Barındırma ve işlem süreçlerinde çevreye duyarlı altyapılar tercih edilmiştir.
+## Emeği Geçenler
 
----
-
-## Proje Linki
-
-[GitHub Pages Üzerinden Görüntüle](https://phoque52.github.io/aether/anasayfa.html)
-
----
-
-> Aether, teknolojiyi işlevselliğin ötesinde, bilinçli ve sorumlu bir şekilde kullanmayı hedefler.
+- **Fullstack Developer:** Ayaz Ata Türkmen  
+- **Bug Fixer:** Cem Özaydın  
+- **Ayrıca Teşekkürler:** Efe Uzman, Aras Erdemir, Ebru Akın ve Şehsuvar Bey
