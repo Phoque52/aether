@@ -1,4 +1,4 @@
-# Aether
+# [Aether](https://phoque52.github.io/aether/anasayfa.html)
 
 **Aether**, 8. Sınıf İnkılap Tarihi ve Atatürkçülük dersine katkı sağlamak amacıyla geliştirilmiş konuşma tabanlı yapay zeka modelidir.
 
