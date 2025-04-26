@@ -1,24 +1,28 @@
 # [Aether](https://phoque52.github.io/aether/anasayfa.html)
 
-**Aether**, 8. Sınıf İnkılap Tarihi ve Atatürkçülük dersine katkı sağlamak amacıyla geliştirilmiş konuşma tabanlı yapay zeka modelidir.
+**Aether** is a speech-based AI model developed to support the 8th Grade "Revolution History and Kemalism" course.
 
-## Nasıl İşler?
+## How Does It Work?
 
-Aether, ön yüzü HTML ve CSS, arka yüzü ise Dialogflow ve JavaScript kullanılarak geliştirilmiş bir projedir. Web sitesi GitHub Pages üzerinden yayınlanmaktadır. Geleneksel bir yapay zekadan ziyade, Aether kapsamlı bir soru-cevap sistemi olarak tasarlanmıştır.
+Aether is a project developed using HTML and CSS for the front-end, and Dialogflow and JavaScript for the back-end. The website is hosted via GitHub Pages.  
+Rather than functioning as a traditional AI, Aether is designed as a comprehensive question-and-answer system.
 
-Kullanıcılar sisteme bir soru yönelttiğinde, Aether bu soruya yalnızca geliştiricileri tarafından daha önce tanımlanmışsa yanıt verir. Sistem bu mantık üzerine kuruludur. Aether’ın bilgi kapasitesi her güncellemede geliştirici ekibi tarafından genişletilmekte ve güncellenmektedir. Eğer sistem yönelttiğiniz bir soruya cevap veremiyorsa, bu durum söz konusu bilginin henüz cevap veri havuzuna eklenmemiş olabileceğini gösterir.
+When users ask a question, Aether can only respond if the developers have previously defined an answer for that specific query. The system operates on this principle.  
+Aether's knowledge base is expanded and updated regularly by the development team.  
+If the system cannot answer a question, it likely means that the information has not yet been added to the response database.
 
-## Çevreye Duyarlı Altyapı
+## Environmentally Conscious Infrastructure
 
-Aether'ı geliştiren ekip, yapay zeka sistemlerinin yüksek enerji tüketimiyle çevre üzerinde yarattığı etkiyi önemsiyor. Bu nedenle sistemin barındırılması ve çalıştırılmasında mümkün olduğunca optimize altyapılar tercih edildi:
+The team behind Aether is mindful of the environmental impact caused by the high energy consumption of AI systems. Therefore, optimized infrastructures were prioritized during the development and hosting of the project:
 
-- Web sitesi GitHub Pages üzerinde barındırılıyor.  
-- Soru-cevap verileri Dialogflow üzerinden işleniyor.  
+- The website is hosted on GitHub Pages.  
+- Question-and-answer data is processed through Dialogflow.  
 
-Amacımız sadece işlevsel bir sistem kurmak değil, bunu doğaya zarar vermeden yapmak. Aether, teknolojiyi sorumlu bir şekilde kullanmaya inanır.
+Our goal is not just to build a functional system but to do so without harming nature.  
+Aether believes in using technology responsibly.
 
-## Emeği Geçenler
+## Credits
 
 - **Fullstack Developer:** Ayaz Ata Türkmen  
 - **Bug Fixer:** Cem Özaydın  
-- **Ayrıca Teşekkürler:** Efe Uzman, Aras Erdemir, Ebru Akın ve Şehsuvar Bey
+- **Special Thanks To:** Efe Uzman, Aras Erdemir, Ebru Akın, and Şehsuvar Bey
