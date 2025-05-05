@@ -186,17 +186,40 @@
     <script>
         const infoBox = document.getElementById('infoBox');
 
-        const infoMessages = [
-            "Biliyor muydunuz? Atatürk, Türkiye Cumhuriyeti'nin kurucusu olarak 29 Ekim 1923'te Cumhuriyet'i ilan etti.",
-            "Biliyor muydunuz? Kurtuluş Savaşı, 1919 yılında Samsun’a çıkarak işgallere karşı başlatılan bir direniş hareketidir.",
-            "Biliyor muydunuz? Mustafa Kemal Atatürk, 16 Mart 1920’de Türkiye Büyük Millet Meclisi’ni Ankara'da topladı.",
-            "Biliyor muydunuz? Kurtuluş Savaşı, Türk milletinin bağımsızlık için verdiği savaşın adıdır.",
-            "Biliyor muydunuz? Kurtuluş Savaşı’nda, Türkiye’nin çeşitli cephelerinde İngiliz, Fransız, Ermeni ve Yunan işgaline karşı savaşlar yapıldı.",
-            "Biliyor muydunuz? Aether'ın ilk adı İnkılapBot'du.",
-            "Biliyor muydunuz? Aether ilk sürümlerinde Facebook üzerinden çalışıyordu.",
-            "Biliyor muydunuz? Kurtuluş Savaşı'nın zaferle sonuçlanmasının ardından, 1923’te Lozan Antlaşması imzalanarak Türkiye’nin bağımsızlığı uluslararası alanda kabul edildi.",
-            "Biliyor muydunuz? Aether'ın ismi Dante Aligheri'nin 'İlahi Komedya'sındaki gök katlarından esinlenilerek verilmiştir."
-        ];
+    const infoMessages = [
+    "Biliyor muydunuz? Atatürk, Türkiye Cumhuriyeti'nin kurucusu olarak 29 Ekim 1923'te Cumhuriyet'i ilan etti.",
+    "Biliyor muydunuz? Kurtuluş Savaşı, 1919 yılında Samsun’a çıkarak işgallere karşı başlatılan bir direniş hareketidir.",
+    "Biliyor muydunuz? Mustafa Kemal Atatürk, 16 Mart 1920’de Türkiye Büyük Millet Meclisi’ni Ankara'da topladı.",
+    "Biliyor muydunuz? Kurtuluş Savaşı, Türk milletinin bağımsızlık için verdiği savaşın adıdır.",
+    "Biliyor muydunuz? Kurtuluş Savaşı’nda, Türkiye’nin çeşitli cephelerinde İngiliz, Fransız, Ermeni ve Yunan işgaline karşı savaşlar yapıldı.",
+    "Biliyor muydunuz? Aether'ın ilk adı İnklapBot'du.",
+    "Biliyor muydunuz? Aether ilk sürümlerinde Facebook Messenger üzerinden çalışıyordu.",
+    "Biliyor muydunuz? Kurtuluş Savaşı'nın zaferle sonuçlanmasının ardından, 1923’te Lozan Antlaşması imzalanarak Türkiye’nin bağımsızlığı uluslararası alanda kabul edildi.",
+    "Biliyor muydunuz? Aether'ın ismi Dante Aligheri'nin 'İlahi Komedya'sındaki gök katlarından esinlenilerek verilmiştir.",
+    
+    // 2.2 PATCH:
+    "Biliyor muydunuz? Osmanlı Devleti 1299 yılında Osman Gazi tarafından Bilecik civarında kuruldu.",
+    "Biliyor muydunuz? İstanbul, 1453 yılında II. Mehmet (Fatih Sultan Mehmet) tarafından fethedilerek Osmanlı’nın başkenti oldu.",
+    "Biliyor muydunuz? Osmanlı Devleti 600 yıldan fazla hüküm sürdü ve üç kıtaya yayıldı.",
+    "Biliyor muydunuz? 1908 yılında II. Meşrutiyet’in ilanı ile Osmanlı’da çok partili hayata geçildi.",
+    "Biliyor muydunuz? 1. Dünya Savaşı sonrasında Osmanlı Devleti fiilen sona erdi ve Anadolu işgale uğradı.",
+    "Biliyor muydunuz? 3 Mart 1924'te halifelik kaldırılarak laiklik yolunda önemli bir adım atıldı.",
+    "Biliyor muydunuz? 1934'te çıkarılan Soyadı Kanunu ile Mustafa Kemal'e 'Atatürk' soyadı verildi.",
+    "Biliyor muydunuz? 1928 yılında Latin alfabesi kabul edilerek eğitimde büyük bir reform yapıldı.",
+    "Biliyor muydunuz? Osmanlı padişahlarından Kanuni Sultan Süleyman, 46 yıl tahta kalarak en uzun süre hüküm süren padişah olmuştur.",
+    "Biliyor muydunuz? Osmanlı Devleti, 1699 Karlofça Antlaşması ile ilk kez büyük ölçekte toprak kaybetti.",
+    "Biliyor muydunuz? Lale Devri, 1718-1730 yılları arasında Osmanlı’da batılılaşma eğilimlerinin başladığı bir dönemdi.",
+    "Biliyor muydunuz? 1876’da ilan edilen Kanun-i Esasi, Osmanlı tarihindeki ilk anayasa olmuştur.",
+    "Biliyor muydunuz? 1915 yılında Çanakkale Savaşları, Türk ordusunun büyük bir direniş sergilediği destansı bir mücadeleydi.",
+    "Biliyor muydunuz? Mustafa Kemal Atatürk, Sakarya Meydan Muharebesi sonrası 'Gazi' unvanını aldı.",
+    "Biliyor muydunuz? İzmir, 9 Eylül 1922’de düşman işgalinden kurtarılarak Kurtuluş Savaşı'nın askeri safhası sona erdi.",
+    "Biliyor muydunuz? 1930’da kadınlara belediye seçimlerinde seçme ve seçilme hakkı tanındı, bu hak 1934’te genel seçimlere de genişletildi.",
+    "Biliyor muydunuz? 1935’te Ayasofya, müze olarak hizmet vermeye başladı ve uluslararası dikkat çekti.",
+    "Biliyor muydunuz? 1925’te kabul edilen Şapka Kanunu, kıyafet devrimlerinin bir parçasıydı.",
+    "Biliyor muydunuz? Atatürk, 10. Yıl Nutku’nu 1933’te okudu ve 'Türk milleti çalışkandır, Türk milleti zekidir' sözleriyle hafızalara kazındı.",
+    "Biliyor muydunuz? Emeği geçenler bölümündeki Şehsuvar Bey, geliştiricinin kedisinin adıdır..",
+    ];
+
 
         function getRandomInfo() {
             const randomIndex = Math.floor(Math.random() * infoMessages.length);
